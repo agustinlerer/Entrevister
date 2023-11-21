@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Mi nombre es Marcos Pacchioli, este es mi portfolio donde podran ver algunos de mis trabajos">
+        <meta name="keywords"  content="productora, productora audiovisual, edicion de fotos, video clips, fotos, sesion de fotos">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    </head>
+
+    <body>
+        <header>
+            <a class="logo" href="#Inicio"><img src="./Recursos/ENTREV1STER_4.png" alt=""></a>
+            
+            <ul class="menu">
+                <li><a href="#Inicio" class="scroll" data-target="Inicio">Inicio</a></li>
+                <li><a href="#descripcion" class="scroll" data-target="descripcion">¿Qué es entrevister?</a></li>
+                <li><a href="#formulario" class="scroll" data-target="formulario">Formulario</a></li>
+                <li><a href="#entrevista" class="scroll" data-target="entrevista">Entrevista</a></li>
+                <li>
+                    <a href="#consejos" class="scroll" data-target="consejos">Consejos</a>
+                    <ul class="submenu ">
+                        <li><a href="#consejos_entrevista" class="scroll" data-target="consejos_entrevista">Entrevista</a></li>
+                        <li><a href="#consejoscv" class="scroll" data-target="consejoscv">Armar tu CV</a></li>
+                    </ul>
+                </li>
+                <li><a href="#nosotros" class="scroll" data-target="nosotros">Sobre nosotros</a></li>
+                <li><a href="#contacto" class="scroll" data-target="contacto">Contacto</a></li>
+            </ul>
+        </header>
+            
+            
+            <!-- <nav class="navegacion">
+         
+                <a href="#Inicio" class="scroll" data-target="Inicio">Inicio</a>
+                <a href="#descripcion" class="scroll" data-target="descripcion">¿Qué es entrevister?</a>
+                <a href="#formulario" class="scroll" data-target="formulario">Formulario</a>
+                <a href="#entrevista" class="scroll" data-target="entrevista">Entrevista</a>
+                <a href="#nosotros" class="scroll" data-target="nosotros">Sobre nosotros</a>
+                <li><a href="#contacto" class="scroll" data-target="contacto">Contacto</a>
+                    <ul class="submenu">
+                        <li><a href="#consejos-entrevista">Consejos de Entrevista</a></li>
+                        <li><a href="#consejos-cv">Consejos de CV</a></li>
+                    </ul>
+                </li>
+                -->
+                  
+            </nav>
+        </header>     
+        <section class="entrevister" id="Inicio">
+            <img  class="entrevister-img" src="./Recursos/ENTREV1STER_8.png" id="logo">
+            <img src="./Recursos/ENTREV1STER_2.png" id="cirquito_left">
+            <img src="./Recursos/ENTREV1STER.png" id="cirquito_right">
+        </section>
+        <section class="descrip_entrevister" id="descripcion">
+            <h3>¿Que es entrevister?</h3>
+            <p>
+                Todos alguna vez sentimos nervios cuando nos enfrentamos a una entrevista laboral, más aun en la primera. La inexperiencia o la poca preparación son elementos que afectan directamente al desempeño de cada uno en la entrevista laboral 
+               
+                          
+            </p>
+            <p>
+                ¿Qué pasaría si existiera una herramienta que nos permitiera entrenar y prepararnos para enfrentar  nuestra primera entrevista con más confianza?
+                
+            </p>
+            <p>
+                Para eso creamos Entrev1ster  
+            </p>
+        <section class="formulario" id="formulario">
+            <iframe src="https://docs.google.com/forms/d/1CIo8vapiOwHrlbYgjB9DgDWr1hSrUu7Lp1tWsHdHBFk/viewform?pli=1&pli=1&edit_requested=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
+        </section>
+        <section class="entrevista">
+         <H3> simulador de entrevista</H3> 
+        <div id="chat-container">
+          
+           <div id="entrevista"></div>
+            
+            <input type="text" id="respuesta" placeholder="Escribe tu respuesta..." onkeydown="enviarRespuesta(event)">
+            <button id="enviar-btn" onclick="siguientePregunta()">Enviar</button>
+        </div>   
+        </section>
+        
+    
+    <section class="consejos" id="consejos" >
+       
+        <div  id="consejos_entrevista">
+            <h3>Como prepararte para una entrevista</h3>
+            <p>
+                Investigá sobre la empresa: El conocimiento sobre la historia, los valores, la cultura y el perfil de la impresa  puede ser imprescindible para mostrar interés y adecuarte mejor.
+            </p>
+            <p>
+                Preparate para preguntas comunes: Anticipa respuestas para preguntas sobre tus fortalezas, debilidades y experiencias anteriores. (podés utilizar el simulador de Entrev1ster para saber algunas preguntas generales, pero no son todas las preguntas que pueden hacerte. Es importante que en la entrevista seas vos mismo/a y puedas responder en el momento en base a tu persona y tus experiencias)
+            </p>
+            <p>
+                Vestite apropiadamente: Asegurate de vestirte de acuerdo con la cultura de la empresa y según su perfil. Es importante que te muestres como lo que querés ser, por ende una opción podria ser, por ejemplo, en caso de que allí utilicen traje para vestirse, podrías ir de traje para verte como un empleado más y que ya te sientan parte de ellos.
+            </p>
+            <p>
+                Llegá a tiempo: La puntualidad es crucial. Llegar temprano muestra profesionalismo y compromiso, por otro lado, la impuntualidad puede dejar una muy mala impresion sobre vos.
+            </p>
+            <p>
+                Prepárate con preguntas: Prepará preguntas para el entrevistador que muestren tu interés en la posición, en la empresa y las dudas que tengas sobre el puesto que querés ocupar (horarios, tipo de trabajos, segmentación de equipos, etc), pero es importante saber cuando hacer éstas preguntas, por lo que tendrías que evaluar muy bien las situaciones en la entrevista y si se da la oportunidad.
+            </p>
+            <p>
+                Sé auténtico/a: Mostrá tu verdadera personalidad para que el entrevistador pueda evaluar si encajas en el perfil de la empresa y se acuerde de vos a la hora de llamar gente.
+            </p>
+            <p>
+                Agradece al final: Expresa gratitud por la oportunidad al final de la entrevista.
+            </p>
+            <p>
+                Cuidar tu higiene: Parte de no dejar una mala impresión es cuidar tu higiene personal, evita ir con olor a cigarrillo, intenta no llegar con demasiada transpiración, usar perfume, planchar tu ropa, no tener pelo de animales y cuidarte del mal aliento.
+            </p>
+        </div>
+    </section>
+    <section class="sobre_nosotros" id="nosotros">
+        
+        <h3>¿Quienes somos ?</h3>
+        
+        <p>
+            Somos personas como vos que pasaron por tu misma situación, entendemos que puede ser muy frustrante lidiar con el rechazo y la incertidumbre y es por eso que decidimos crear una herramienta para que pueda ayudar a quien la necesite, somos Entrev1ster.
+        </p>
+
+    </section>
+    <footer class="pie" id="contacto">
+        <div class="linea-blanca"></div> <!-- Línea blanca -->
+        <div class="pie_redes">
+            <h3>Redes Sociales</h3>
+            <p>Aquí se encuentra mi Instagram y LinkedIn para ponerse en contacto</p>
+            <div class="pie_redes__links">
+                <a class="botton botton--foto  botton--instagram" target="_blank" href="https://www.instagram.com/entrev1ster/?hl=es"></a>
+                <a class="botton botton--foto  botton--youtube" target="_blank" href="mailto:ia.entrev1ster@gmail.com"></a>
+            </div>
+        </div>
+        
+    </footer>
+    
+    
+
+
+    <script src="./js/efectos_scroll.js"></script>
+    <script src="./js/Entrevista_interact.js"></script>
+</body>
+
+
+
+
+</html>
