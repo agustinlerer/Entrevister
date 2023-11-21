@@ -1,5 +1,5 @@
 
-const imagenComun = "../Recursos/ENTREV1STER_9.png";
+const imagenComun = "../Recursos/chat.png";
 
 const preguntas = [
     "¿Cuál es tu mayor logro profesional?",
